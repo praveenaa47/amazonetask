@@ -1,0 +1,1 @@
+export const BASE_URL = "https://amazone-clone-kfvy.onrender.com/"
