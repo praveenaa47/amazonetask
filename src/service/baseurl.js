@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3006"
+export const BASE_URL = "https://backend-5oxl.onrender.com"
 
 export const CLOUD_NAME = "dgll2kfzv"; 
 

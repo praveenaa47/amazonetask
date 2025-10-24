@@ -13,7 +13,7 @@ export default function BrowsingHistoryCarousel() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get("http://localhost:3006/product");
+        const response = await axios.get("https://backend-5oxl.onrender.com/product");
         if (response.data.success) {
           setProducts(response.data.data.products);
           setTotalPages(response.data.data.pagination.totalPages || 1);
